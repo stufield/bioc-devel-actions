@@ -1,0 +1,7 @@
+data-raw
+^README\.Rmd$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^\.covrignore$
+^Makefile$

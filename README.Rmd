@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+<!-- badges: start -->
+[![CRAN badge](https://img.shields.io/badge/CRAN-No-red.svg)](https://cran.r-project.org)
+[![R-CMD-check](https://github.com/stufield/biocDevelActions/workflows/R-CMD-check/badge.svg)](https://github.com/stufield/biocDevelActions/actions)
+[![Lifecycle Status](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+<!-- badges: end -->
+
+
+# The `biocDevelActions` package
+
+
+This is just a testing ground for Github Actions with 
+a BioConductor package in the R devel environment.
+
+--------------
+
+## Installation
+
+```{r, eval = FALSE}
+remotes::install_github("stufield/biocDevelActions")
+```
+
+-------------
+
+### Here are some check boxes
+
+- [x] checkbox
+- [ ] checkbox
+* bullet
+
+-------------
+
+Created by [Rmarkdown](https://github.com/rstudio/rmarkdown)
+(v`r utils::packageVersion("rmarkdown")`) and `r R.version$version.string`. 
